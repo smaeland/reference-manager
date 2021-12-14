@@ -1,0 +1,20 @@
+{
+"data": [
+    {
+        "title": "Approximating Likelihood Ratios with Calibrated Discriminative Classifiers",
+        "author": "Kyle Cranmer, Juan Pavez, Gilles Louppe",
+        "year": 2016,
+        "tags": [],
+        "uri": "https://arxiv.org/abs/1506.02169",
+        "pdf": "pdfs/1506.02169.pdf"
+    },
+    {
+        "title": "Learning how to explain neural networks: PatternNet and PatternAttribution",
+        "author": "Pieter-Jan Kindermans, Kristof T. Schütt, Maximilian Alber, Klaus-Robert Müller, Dumitru Erhan, Been Kim, Sven Dähne",
+        "year": 2017,
+        "tags": ["XAI"],
+        "uri": "https://arxiv.org/abs/1705.05598",
+        "pdf": "pdfs/1705.05598.pdf"
+    }
+]
+}
