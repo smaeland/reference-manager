@@ -1,6 +1,6 @@
 'use strict'
 
-var baseurl = "http://0.0.0.0:8000/"
+var baseurl = "https://steffen.maeland.gitlab.io/reference-manager/"
 
 $(document).ready(function() {
     $('#example').DataTable({

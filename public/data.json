@@ -15,6 +15,14 @@
         "tags": ["XAI"],
         "uri": "https://arxiv.org/abs/1705.05598",
         "pdf": "pdfs/1705.05598.pdf"
+    },
+    {
+        "title": "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning",
+        "author": "Wojciech SamekGrégoire MontavonAndrea VedaldiLars Kai HansenKlaus-Robert Müller",
+        "year": 2019,
+        "tags": ["XAI"],
+        "uri": "https://link.springer.com/book/10.1007/978-3-030-28954-6",
+        "pdf": "pdfs/10.1007@978-3-030-28954-6.pdf"
     }
 ]
 }
