@@ -32,14 +32,15 @@ $(document).ready(function() {
             {
                 data: "tags",
                 render: function(data) {
-                    return data.join(',')
+                    return data.join(', ')
                 }
             },
             {
                 data: "uri",
                 render: function(data, type) {
                     if (type === 'display') {
-                        return '<a href="' + data + '">URI</a>';
+                        let domain = data.split('/')[2]
+                        return '<a href="' + data + '">' + domain + '</a>';
                     }
                     return data;
                 }
@@ -48,9 +49,23 @@ $(document).ready(function() {
                 data: "pdf",
                 render: function(data, type) {
                     if (type === 'display') {
-                        return '<a href="' + baseurl + data + '">pdf</a>';
+                        return '<a href="' + baseurl + 'pdfs/' + data + '"><img src="icons/file-earmark-pdf.svg" width="22" height="22"></a>';
                     }
                     return data;
+                }
+            },
+            {
+                render: function(data, type, row) {
+                    let searchterm = row['title'].replace(/\ /g, '%20')
+                    let link = 'https://www.connectedpapers.com/search?q=' + searchterm
+                    return '<a href="' + link + '" target="blank"><img src="icons/diagram-2.svg" width="22" height="22"></a>';
+                }
+            },
+            {
+                render: function(data, type, row) {
+                    let searchterm = row['title'].replace(/\ /g, '%20')
+                    let link = 'https://scholar.google.com/scholar?q=' + searchterm
+                    return '<a href="' + link + '" target="blank"><img src="icons/Google_Scholar_logo.svg" width="22" height="22"></a>';
                 }
             }
         ]

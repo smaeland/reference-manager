@@ -6,7 +6,7 @@
         "year": 2016,
         "tags": [],
         "uri": "https://arxiv.org/abs/1506.02169",
-        "pdf": "pdfs/1506.02169.pdf"
+        "pdf": "1506.02169.pdf"
     },
     {
         "title": "Learning how to explain neural networks: PatternNet and PatternAttribution",
@@ -14,15 +14,31 @@
         "year": 2017,
         "tags": ["XAI"],
         "uri": "https://arxiv.org/abs/1705.05598",
-        "pdf": "pdfs/1705.05598.pdf"
+        "pdf": "1705.05598.pdf"
     },
     {
         "title": "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning",
-        "author": "Wojciech SamekGrégoire MontavonAndrea VedaldiLars Kai HansenKlaus-Robert Müller",
+        "author": "Wojciech Samek, Grégoire Montavon, Andrea Vedaldi, Lars Kai Hansen, Klaus-Robert Müller",
         "year": 2019,
         "tags": ["XAI"],
         "uri": "https://link.springer.com/book/10.1007/978-3-030-28954-6",
-        "pdf": "pdfs/10.1007@978-3-030-28954-6.pdf"
+        "pdf": "10.1007@978-3-030-28954-6.pdf"
+    },
+    {
+        "author": "Bagnall, A., Lines, J., Bostrom, A. et al.",
+        "title": "The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances",
+        "year": 2017,
+        "tags": ["Time series"],
+        "uri": "https://doi.org/10.1007/s10618-016-0483-9",
+        "pdf": "Bagnall2017_Article_TheGreatTimeSeriesClassificati.pdf"
+    },
+    {
+        "title": "Signal mixture estimation for degenerate heavy Higgses using a deep neural network",
+        "author": "Anders Kvellestad, Steffen Maeland, Inga Strümke",
+        "year": 2018,
+        "tags": ["HEP", "ML"],
+        "uri": "https://doi.org/10.1140/epjc/s10052-018-6455-z",
+        "pdf": "Kvellestad2018_Article_SignalMixtureEstimationForDege.pdf"
     }
 ]
 }
