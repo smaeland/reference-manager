@@ -39,6 +39,22 @@
         "tags": ["HEP", "ML"],
         "uri": "https://doi.org/10.1140/epjc/s10052-018-6455-z",
         "pdf": "Kvellestad2018_Article_SignalMixtureEstimationForDege.pdf"
+    },
+    {
+	"title": "Automatic detection of building typology using deep learning methods on street level images",
+	"author": "Daniela Gonzalez and Diego Rueda-Plata and Ana B. Acevedo and Juan C. Duque and Raúl Ramos-Pollán and Alejandro Betancourt and Sebastian García",
+	"year": 2020,
+	"tags": ["Building-ML"],
+	"uri": "https://www.sciencedirect.com/science/article/pii/S0360132320301633",
+	"pdf": "1-s2.0-S0360132320301633-main.pdf"
+    },
+    {
+	"title": "Building instance classification using street view images",
+	"author": "Jian Kang and Marco Körner and Yuanyuan Wang and Hannes Taubenböck and Xiao Xiang Zhu",
+	"year": 2018,
+	"tags": ["Building-ML"],
+	"uri": "https://www.sciencedirect.com/science/article/pii/S0924271618300352",
+	"pdf": "1-s2.0-S0924271618300352-main.pdf"
     }
 ]
 }
