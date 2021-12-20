@@ -19,7 +19,6 @@ def get_metadata(filename):
     print(metadata)
         
     date, year = metadata.get('CreationDate'), ''
-    print('date:', date)
     if date is not None:
         year = re.match(r'(\d{4})', date).group(0)
     
@@ -62,7 +61,7 @@ if __name__ == '__main__':
         print('{')
         print('    \"title\": \"{}\",'.format(entry['title']))
         print('    \"author\": \"{}\",'.format(entry['author']))
-        print('    \"year\": \"{}\",'.format(entry['year']))
+        print('    \"year\": {},'.format(entry['year']))
         print('    \"uri\": \"\",')
         print('    \"pdf\": \"{}\",'.format(entry['pdf']))
         print('}\n')
