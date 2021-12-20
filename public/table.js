@@ -19,6 +19,7 @@ $(document).ready(function() {
             {
                 data: "author",
                 render: function(data) {
+                    data = data.replace(/\sand/g, ',')    
                     let num_authors = (data.match(/,/g) || []).length;
                     if (num_authors > 3) {
                         return data.split(',')[0] + ' et al.'
