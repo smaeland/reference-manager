@@ -60,9 +60,9 @@
         "title": "Grad-CAM: Visual Explanations From Deep Networks via Gradient-Based Localization",
         "author": "Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra",
         "year": 2017,
-        "tags": ['XAI'],
+        "tags": ["XAI"],
         "uri": "https://ieeexplore.ieee.org/document/8237336",
-        "pdf": "Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf",
+        "pdf": "Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf"
     }
 ]
 }
