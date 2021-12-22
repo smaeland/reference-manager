@@ -16,8 +16,6 @@ def get_metadata(filename):
         key, value = line[:delim_pos], line[delim_pos+1:]
         metadata[key] = value.strip()
     
-    print(metadata)
-        
     date, year = metadata.get('CreationDate'), ''
     if date is not None:
         year = re.match(r'(\d{4})', date).group(0)

@@ -1,0 +1,155 @@
+---
+data:
+
+- title: "Approximating Likelihood Ratios with Calibrated Discriminative Classifiers"
+  author: "Kyle Cranmer, Juan Pavez, Gilles Louppe"
+  year: 2016
+  tags: []
+  uri: "https://arxiv.org/abs/1506.02169"
+  pdf: "1506.02169.pdf"
+  bibtex: |
+    @article{Cranmer:2015bka,
+      author = "Cranmer, Kyle and Pavez, Juan and Louppe, Gilles",
+      title = "{Approximating Likelihood Ratios with Calibrated Discriminative  Classifiers}",
+      eprint = "1506.02169",
+      archivePrefix = "arXiv",
+      primaryClass = "stat.AP",
+      month = "6",
+      year = "2015"
+    }
+  notes: | 
+    Paper on requirement of monotonically decreasing template ratios
+    
+    
+- title: "Learning how to explain neural networks: PatternNet and PatternAttribution"
+  author: "Pieter-Jan Kindermans, Kristof T. Schütt, Maximilian Alber, Klaus-Robert Müller, Dumitru Erhan, Been Kim, Sven Dähne"
+  year: 2017
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1705.05598"
+  pdf: "1705.05598.pdf"
+  bibtex: |
+    @article{kindermans2017learning,
+      title={Learning how to explain neural networks: Patternnet and patternattribution},
+      author={Kindermans, Pieter-Jan and Sch{\"u}tt, Kristof T and Alber, Maximilian and M{\"u}ller, Klaus-Robert and Erhan, Dumitru and Kim, Been and D{\"a}hne, Sven},
+      journal={arXiv preprint arXiv:1705.05598},
+      year={2017}
+    }
+
+
+- title: "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning"
+  author: "Wojciech Samek, Grégoire Montavon, Andrea Vedaldi, Lars Kai Hansen, Klaus-Robert Müller"
+  year: 2019
+  tags: ["XAI"]
+  uri: "https://link.springer.com/book/10.1007/978-3-030-28954-6"
+  pdf: "10.1007@978-3-030-28954-6.pdf"
+  bibtex: | 
+    @book{samek2019explainable,
+      title={Explainable AI: interpreting, explaining and visualizing deep learning},
+      author={Samek, Wojciech and Montavon, Gr{\'e}goire and Vedaldi, Andrea and Hansen, Lars Kai and M{\"u}ller, Klaus-Robert},
+      volume={11700},
+      year={2019},
+      publisher={Springer Nature}
+    }
+
+   
+- title: "The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances"
+  author: "Bagnall, A., Lines, J., Bostrom, A. et al."
+  year: 2017
+  tags: ["Time series"]
+  uri: "https://doi.org/10.1007/s10618-016-0483-9"
+  pdf: "Bagnall2017_Article_TheGreatTimeSeriesClassificati.pdf"
+  bibtex: |
+    @article{bagnall2017great,
+      title={The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances},
+      author={Bagnall, Anthony and Lines, Jason and Bostrom, Aaron and Large, James and Keogh, Eamonn},
+      journal={Data mining and knowledge discovery},
+      volume={31},
+      number={3},
+      pages={606--660},
+      year={2017},
+      publisher={Springer}
+    }
+
+
+- title: "Signal mixture estimation for degenerate heavy Higgses using a deep neural network"
+  author: "Anders Kvellestad, Steffen Maeland, Inga Strümke"
+  year: 2018
+  tags: ["HEP", "ML"]
+  uri: "https://doi.org/10.1140/epjc/s10052-018-6455-z"
+  pdf: "Kvellestad2018_Article_SignalMixtureEstimationForDege.pdf"
+  bibtex: |
+    @article{Kvellestad:2018crh,
+      author = {Kvellestad, Anders and Maeland, Steffen and Str\"umke, Inga},
+      title = "{Signal mixture estimation for degenerate heavy Higgses using a deep neural network}",
+      eprint = "1804.07737",
+      archivePrefix = "arXiv",
+      primaryClass = "hep-ph",
+      doi = "10.1140/epjc/s10052-018-6455-z",
+      journal = "Eur. Phys. J. C",
+      volume = "78",
+      number = "12",
+      pages = "1010",
+      year = "2018"
+    }
+ 
+- title: "Automatic detection of building typology using deep learning methods on street level images"
+  author: "Daniela Gonzalez and Diego Rueda-Plata and Ana B. Acevedo and Juan C. Duque and Raúl Ramos-Pollán and Alejandro Betancourt and Sebastian García"
+  year: 2020
+  tags: ["Building-ML"]
+  uri: "https://www.sciencedirect.com/science/article/pii/S0360132320301633"
+  pdf: "1-s2.0-S0360132320301633-main.pdf"
+  bibtex: |
+    @article{GONZALEZ2020106805,
+      title = {Automatic detection of building typology using deep learning methods on street level images},
+      journal = {Building and Environment},
+      volume = {177},
+      pages = {106805},
+      year = {2020},
+      issn = {0360-1323},
+      doi = {https://doi.org/10.1016/j.buildenv.2020.106805},
+      url = {https://www.sciencedirect.com/science/article/pii/S0360132320301633},
+      author = {Daniela Gonzalez and Diego Rueda-Plata and Ana B. Acevedo and Juan C. Duque and Raúl Ramos-Pollán and Alejandro Betancourt and Sebastian García},
+    }
+
+- title: "Building instance classification using street view images"
+  author: "Jian Kang and Marco Körner and Yuanyuan Wang and Hannes Taubenböck and Xiao Xiang Zhu"
+  year: 2018
+  tags: ["Building-ML"]
+  uri: "https://www.sciencedirect.com/science/article/pii/S0924271618300352"
+  pdf: "1-s2.0-S0924271618300352-main.pdf"
+  bibtex: |
+    @article{KANG201844,
+      title = {Building instance classification using street view images},
+      journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+      volume = {145},
+      pages = {44-59},
+      year = {2018},
+      note = {Deep Learning RS Data},
+      issn = {0924-2716},
+      doi = {https://doi.org/10.1016/j.isprsjprs.2018.02.006},
+      url = {https://www.sciencedirect.com/science/article/pii/S0924271618300352},
+      author = {Jian Kang and Marco Körner and Yuanyuan Wang and Hannes Taubenböck and Xiao Xiang Zhu},
+      keywords = {CNN, Building instance classification, Street view images, OpenStreetMap},
+    }
+ 
+ 
+- title: "Grad-CAM: Visual Explanations From Deep Networks via Gradient-Based Localization"
+  author: "Ramprasaath R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, Dhruv Batra"
+  year: 2017
+  tags: ["XAI"]
+  uri: "https://ieeexplore.ieee.org/document/8237336"
+  pdf: "Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf"
+  bibtex: |
+    @INPROCEEDINGS{8237336,
+      author={Selvaraju, Ramprasaath R. and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+      booktitle={2017 IEEE International Conference on Computer Vision (ICCV)}, 
+      title={Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization}, 
+      year={2017},
+      volume={},
+      number={},
+      pages={618-626},
+      doi={10.1109/ICCV.2017.74}
+    }
+
+
+
