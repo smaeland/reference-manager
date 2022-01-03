@@ -55,9 +55,32 @@ $(document).ready(function() {
                         title: "URI",
                         render: function(data, type) {
                             if (type === 'display') {
+                                
+                                let icon = "link-45deg.svg"
                                 let domain = data.split('/')[2]
-                                return '<a href="' + data + '" target="blank">' + domain + '</a>';
+                                
+                                if (domain.includes('arxiv')) {
+                                    icon = "arxiv.svg"
+                                }
+                                else if (domain.includes('doi')) {
+                                    icon = "doi.svg"
+                                }
+                                else if (domain.includes('elsevier') || domain.includes('sciencedirect')) {
+                                    icon = "elsevier.svg"
+                                }
+                                else if (domain.includes('ieee')) {
+                                    icon = "ieee.svg"
+                                }
+                                else if (domain.includes('jstor')) {
+                                    icon = "jstor.svg"
+                                }
+                                else if (domain.includes('springer')) {
+                                    icon = "springer.svg"
+                                }
+
+                                return '<a href="' + data + '" target="blank"><img src="icons/' + icon + '" width="22" height="22"></a>';
                             }
+
                             return data;
                         }
                     },
@@ -110,7 +133,7 @@ $(document).ready(function() {
                     {
                         // Disable sorting for icon/link columns
                         bSortable: false,
-                        targets: [5, 8, 9],
+                        targets: [4, 5, 8, 9],
                         searchable: false
                     }                     
                 ]
