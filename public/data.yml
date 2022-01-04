@@ -111,6 +111,7 @@ data:
       author = {Daniela Gonzalez and Diego Rueda-Plata and Ana B. Acevedo and Juan C. Duque and Raúl Ramos-Pollán and Alejandro Betancourt and Sebastian García},
     }
 
+
 - title: "Building instance classification using street view images"
   author: "Jian Kang and Marco Körner and Yuanyuan Wang and Hannes Taubenböck and Xiao Xiang Zhu"
   year: 2018
@@ -151,5 +152,34 @@ data:
       doi={10.1109/ICCV.2017.74}
     }
 
+- title: "Xception: Deep Learning With Depthwise Separable Convolutions"
+  author: "Francois Chollet"
+  year: 2017
+  tags: ["ML", "CNN"]
+  uri: "https://arxiv.org/abs/1610.02357"
+  pdf: "Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf"
+  bibtex: |
+    @inproceedings{chollet2017xception,
+      title={Xception: Deep learning with depthwise separable convolutions},
+      author={Chollet, Fran{\c{c}}ois},
+      booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+      pages={1251--1258},
+      year={2017}
+    }
+
+
+- title: "Very deep convolutional networks for large-scale image recognition"
+  author: "Simonyan, Karen and Zisserman, Andrew"
+  year: 2015
+  tags: ["ML", "CNN"]
+  uri: "https://arxiv.org/abs/1409.1556"
+  pdf: "1409.1556.pdf"
+  bibtex: |
+    @article{simonyan2014very,
+      title={Very deep convolutional networks for large-scale image recognition},
+      author={Simonyan, Karen and Zisserman, Andrew},
+      journal={arXiv preprint arXiv:1409.1556},
+      year={2014}
+    }
 
 

@@ -1,7 +1,8 @@
 import subprocess
-import json
+#import json
 from glob import glob
 import re
+import yaml
 
 
 def get_metadata(filename):
@@ -18,7 +19,9 @@ def get_metadata(filename):
     
     date, year = metadata.get('CreationDate'), ''
     if date is not None:
-        year = re.match(r'(\d{4})', date).group(0)
+        match = re.search(r'(\d{4})', date)
+        if match is not None:
+            year = match.group(0)
     
     result = {
         'title': metadata.get('Title'),
@@ -33,11 +36,11 @@ def get_metadata(filename):
 
 if __name__ == '__main__':
     
-    # Load JSON, extract "pdf" fields as a list
-    with open('public/data.json') as fin:
-        data = json.load(fin)['data']
+    # Load yaml entries, extract "pdf" fields as a list
+    with open('public/data.yml') as fin:
+        data = yaml.load(fin, Loader=yaml.CLoader)['data']
     imported_pdfs = set([x['pdf'] for x in data])
-    
+
     # Collect downloaded PDFs 
     downloaded_pdfs = glob('public/pdfs/*.pdf')
     downloaded_pdfs = set([x.split('/')[-1] for x in downloaded_pdfs])    # Get basename
@@ -56,12 +59,13 @@ if __name__ == '__main__':
     
     print('Suggested entries for public/data.json:')
     for entry in suggested:
-        print('{')
-        print('    \"title\": \"{}\",'.format(entry['title']))
-        print('    \"author\": \"{}\",'.format(entry['author']))
-        print('    \"year\": {},'.format(entry['year']))
-        print('    \"uri\": \"\",')
-        print('    \"pdf\": \"{}\",'.format(entry['pdf']))
-        print('}\n')
+        print('')
+        print('- title: \"{}\"'.format(entry['title']))
+        print('  author: \"{}\"'.format(entry['author']))
+        print('  year: {}'.format(entry['year']))
+        print('  tags: []')
+        print('  uri: \"\"')
+        print('  pdf: \"{}\"'.format(entry['pdf']))
+        print('')
     
     
