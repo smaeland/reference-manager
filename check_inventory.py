@@ -57,7 +57,7 @@ if __name__ == '__main__':
     # Extract metadata, print suggestions
     suggested = map(get_metadata, unimported_pdfs)
     
-    print('Suggested entries for public/data.json:')
+    print('Suggested entries for public/data.yml:')
     for entry in suggested:
         print('')
         print('- title: \"{}\"'.format(entry['title']))
