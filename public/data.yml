@@ -235,3 +235,18 @@ data:
       year={2017}
     }
 
+- title: Sanity checks for saliency maps
+  author: Adebayo, Julius and Gilmer, Justin and Muelly, Michael and Goodfellow, Ian and Hardt, Moritz and Kim, Been
+  year: 2018
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1810.03292"
+  pdf: "1810.03292.pdf"
+  bibtex: |
+    @article{adebayo2018sanity,
+      title={Sanity checks for saliency maps},
+      author={Adebayo, Julius and Gilmer, Justin and Muelly, Michael and Goodfellow, Ian and Hardt, Moritz and Kim, Been},
+      journal={arXiv preprint arXiv:1810.03292},
+      year={2018}
+    }
+
+
