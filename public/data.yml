@@ -257,14 +257,15 @@ data:
   pdf: "s41598-021-90285-5.pdf"
   bibtex: |
     @article{hicks2021explaining,
-    title={Explaining deep neural networks for knowledge discovery in electrocardiogram analysis},
-    author={Hicks, Steven A and Isaksen, Jonas L and Thambawita, Vajira and Ghouse, Jonas and Ahlberg, Gustav and Linneberg, Allan and Grarup, Niels and Str{\"u}mke, Inga and Ellervik, Christina and Olesen, Morten Salling and others},
-    journal={Scientific reports},
-    volume={11},
-    number={1},
-    pages={1--11},
-    year={2021},
-    publisher={Nature Publishing Group}
-  }
- 
+      title={Explaining deep neural networks for knowledge discovery in electrocardiogram analysis},
+      author={Hicks, Steven A and Isaksen, Jonas L and Thambawita, Vajira and Ghouse, Jonas and Ahlberg, Gustav and Linneberg, Allan and Grarup, Niels and Str{\"u}mke, Inga and Ellervik, Christina and Olesen, Morten Salling and others},
+      journal={Scientific reports},
+      volume={11},
+      number={1},
+      pages={1--11},
+      year={2021},
+      publisher={Nature Publishing Group}
+    }
+
+
 
