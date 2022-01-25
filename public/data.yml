@@ -267,5 +267,104 @@ data:
       publisher={Nature Publishing Group}
     }
 
+- title: "Deep inside convolutional networks: Visualising image classification models and saliency maps"
+  author: Karen Simonyan, Andrea Vedaldi and Andrew Zisserman
+  year: 2014
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1312.6034"
+  pdf: "1312.6034.pdf"
+  bibtex: | 
+    @INPROCEEDINGS{Simonyan14deepinside,
+      author = {Karen Simonyan and Andrea Vedaldi and Andrew Zisserman},
+      title = {Deep inside convolutional networks: Visualising image classification models and saliency maps},
+      booktitle = {In Workshop at International Conference on Learning Representations},
+      year = {2014}
+    }
 
+- title: "Not just a black box: Learning important features through propagating activation differences"
+  author: Avanti Shrikumar, Peyton Greenside, Anna Shcherbina, Anshul Kundaje
+  year: 2016
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1605.01713"
+  pdf: "1605.01713.pdf"
+  bibtex: |
+    @article{shrikumar2016not,
+      title={Not just a black box: Learning important features through propagating activation differences},
+      author={Shrikumar, Avanti and Greenside, Peyton and Shcherbina, Anna and Kundaje, Anshul},
+      journal={arXiv preprint arXiv:1605.01713},
+      year={2016}
+    }
+  
+- title: Axiomatic attribution for deep networks
+  author: Mukund Sundararajan, Ankur Taly, Qiqi Yan
+  year: 2017
+  tags: ["XAI"]
+  uri: "http://proceedings.mlr.press/v70/sundararajan17a.html"
+  pdf: "sundararajan17a.pdf"
+  bibtex: |
+    @inproceedings{sundararajan2017axiomatic,
+      title={Axiomatic attribution for deep networks},
+      author={Sundararajan, Mukund and Taly, Ankur and Yan, Qiqi},
+      booktitle={International Conference on Machine Learning},
+      pages={3319--3328},
+      year={2017},
+      organization={PMLR}
+    }
 
+- title: "Striving for simplicity: The all convolutional net"
+  author: Jost Tobias Springenberg, Alexey Dosovitskiy, Thomas Brox, Martin Riedmiller
+  year: 2014
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1412.6806"
+  pdf: "1412.6806.pdf"
+  bibtex: |
+    @article{springenberg2014striving,
+      title={Striving for simplicity: The all convolutional net},
+      author={Springenberg, Jost Tobias and Dosovitskiy, Alexey and Brox, Thomas and Riedmiller, Martin},
+      journal={arXiv preprint arXiv:1412.6806},
+      year={2014}
+    }
+
+- title: Visualizing and understanding convolutional networks
+  author: Matthew D. Zeiler and Rob Fergus
+  year: 2014
+  tags: ["XAI"]
+  uri: "https://link.springer.com/chapter/10.1007/978-3-319-10590-1_53"
+  pdf: "Zeiler-Fergus2014_Chapter_VisualizingAndUnderstandingCon.pdf"
+  bibtex: |
+    @inproceedings{zeiler2014visualizing,
+      title={Visualizing and understanding convolutional networks},
+      author={Zeiler, Matthew D and Fergus, Rob},
+      booktitle={European conference on computer vision},
+      pages={818--833},
+      year={2014},
+      organization={Springer}
+    }
+
+- title: "SmoothGrad: removing noise by adding noise"
+  author: Daniel Smilkov, Nikhil Thorat, Been Kim, Fernanda Viégas, Martin Wattenberg
+  year: 2017
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1706.03825"
+  pdf: "1706.03825.pdf"
+  bibtex: |
+    @article{smilkov2017smoothgrad,
+      title={Smoothgrad: removing noise by adding noise},
+      author={Smilkov, Daniel and Thorat, Nikhil and Kim, Been and Vi{\'e}gas, Fernanda and Wattenberg, Martin},
+      journal={arXiv preprint arXiv:1706.03825},
+      year={2017}
+    }
+
+- title: Towards better understanding of gradient-based attribution methods for Deep Neural Networks
+  author: Marco Ancona, Enea Ceolini, Cengiz Öztireli, Markus Gross
+  year: 2017
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1711.06104"
+  pdf: "1711.06104.pdf"
+  bibtex: |
+    @article{ancona2017towards,
+      title={Towards better understanding of gradient-based attribution methods for deep neural networks},
+      author={Ancona, Marco and Ceolini, Enea and {\"O}ztireli, Cengiz and Gross, Markus},
+      journal={arXiv preprint arXiv:1711.06104},
+      year={2017}
+    }
