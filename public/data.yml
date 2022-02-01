@@ -372,7 +372,7 @@ data:
 - title: "How transferable are features in deep neural networks?"
   author: "Jason Yosinski, Jeff Clune, Yoshua Bengio, Hod Lipson"
   year: 2014
-  tags: ["ML"],
+  tags: ["ML"]
   uri: "https://arxiv.org/abs/1411.1792"
   pdf: "1411.1792.pdf"
   bibtex: |
