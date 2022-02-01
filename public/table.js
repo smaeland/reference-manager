@@ -1,7 +1,7 @@
 'use strict'
 
 const baseurl = "https://steffen.maeland.gitlab.io/reference-manager/";
-const col_max_chars = 75;
+const col_max_chars = 150;
 var table;
 
 $(document).ready(function() {

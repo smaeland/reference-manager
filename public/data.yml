@@ -368,3 +368,18 @@ data:
       journal={arXiv preprint arXiv:1711.06104},
       year={2017}
     }
+
+- title: "How transferable are features in deep neural networks?"
+  author: "Jason Yosinski, Jeff Clune, Yoshua Bengio, Hod Lipson"
+  year: 2014
+  tags: ["ML"],
+  uri: "https://arxiv.org/abs/1411.1792"
+  pdf: "1411.1792.pdf"
+  bibtex: |
+    @article{yosinski2014transferable,
+      title={How transferable are features in deep neural networks?},
+      author={Yosinski, Jason and Clune, Jeff and Bengio, Yoshua and Lipson, Hod},
+      journal={arXiv preprint arXiv:1411.1792},
+      year={2014}
+    }
+
