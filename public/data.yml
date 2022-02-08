@@ -383,3 +383,34 @@ data:
       year={2014}
     }
 
+- title: "Explainable Artificial Intelligence: Understanding, Visualizing and Interpreting Deep Learning Models"
+  author: "Wojciech Samek, Thomas Wiegand, Klaus-Robert Müller"
+  year: 2017
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1708.08296"
+  pdf: "1708.08296.pdf"
+  bibtex: |
+    @article{samek2017explainable,
+      title={Explainable artificial intelligence: Understanding, visualizing and interpreting deep learning models},
+      author={Samek, Wojciech and Wiegand, Thomas and M{\"u}ller, Klaus-Robert},
+      journal={arXiv preprint arXiv:1708.08296},
+      year={2017}
+    }
+
+- title: "Automated building characterization for seismic risk assessment using street-level imagery and deep learning"
+  author: "Patrick Aravena Pelizaria, Christian Geiß, Paula Aguirre, Hernán Santa María, Yvonne Merino Peña, Hannes Taubenböck"
+  year: 2021
+  tags: ["Building-ML"]
+  uri: "https://www.sciencedirect.com/science/article/pii/S0924271621001817"
+  pdf: "1-s2.0-S0924271621001817-main.pdf"
+  bibtex: |
+    @article{pelizari2021automated,
+      title={Automated building characterization for seismic risk assessment using street-level imagery and deep learning},
+      author={Pelizari, Patrick Aravena and Gei{\ss}, Christian and Aguirre, Paula and Santa Mar{\'\i}a, Hern{\'a}n and Pena, Yvonne Merino and Taubenb{\"o}ck, Hannes},
+      journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+      volume={180},
+      pages={370--386},
+      year={2021},
+      publisher={Elsevier}
+    }
+
