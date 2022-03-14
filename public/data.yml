@@ -414,3 +414,38 @@ data:
       publisher={Elsevier}
     }
 
+- title: "Stochastic Modeling of Stratospheric Temperature"
+  author: "Mari Dahl Eggen, Kristina Rognlien Dahl, Sven Peter Näsholm, Steffen Mæland "
+  year: 2022 
+  tags: ["NORSAR"]
+  uri: "https://link.springer.com/article/10.1007/s11004-021-09990-6"
+  pdf: "Eggen2022_Article_StochasticModelingOfStratosphe.pdf"
+  bibtex: |
+    @article{eggen2022stochastic,
+      title={Stochastic modeling of stratospheric temperature},
+      author={Eggen, Mari Dahl and Dahl, Kristina Rognlien and N{\"a}sholm, Sven Peter and M{\ae}land, Steffen},
+      journal={Mathematical Geosciences},
+      pages={1--28},
+      year={2022},
+      publisher={Springer}
+    }
+
+- title: "Evaluating the visualization of what a Deep Neural Network has learned"
+  author: "Wojciech Samek, Alexander Binder, Grégoire Montavon, Sebastian Bach, Klaus-Robert Müller"
+  year: 2016
+  tags: ["XAI"]
+  uri: "https://ieeexplore.ieee.org/document/7552539"
+  pdf: "1509.06321.pdf"
+  bibtex: |
+    @article{samek2016evaluating,
+      title={Evaluating the visualization of what a deep neural network has learned},
+      author={Samek, Wojciech and Binder, Alexander and Montavon, Gr{\'e}goire and Lapuschkin, Sebastian and M{\"u}ller, Klaus-Robert},
+      journal={IEEE transactions on neural networks and learning systems},
+      volume={28},
+      number={11},
+      pages={2660--2673},
+      year={2016},
+      publisher={IEEE}
+    }
+
+
