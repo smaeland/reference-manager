@@ -448,4 +448,20 @@ data:
       publisher={IEEE}
     }
 
+- title: "When explanations lie: Why many modified bp attributions fail"
+  author: "Leon Sixt, Maximilian Granz, Tim Landgraf"
+  year: 2020
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/1912.09818"
+  pdf: "sixt20a.pdf"
+  bibtex: |
+    @inproceedings{sixt2020explanations,
+    title={When explanations lie: Why many modified bp attributions fail},
+    author={Sixt, Leon and Granz, Maximilian and Landgraf, Tim},
+    booktitle={International Conference on Machine Learning},
+    pages={9046--9057},
+    year={2020},
+    organization={PMLR}
+  }
+ 
 
