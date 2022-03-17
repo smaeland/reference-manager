@@ -463,5 +463,22 @@ data:
     year={2020},
     organization={PMLR}
   }
- 
+
+- title: "Deep Learning for ECG Analysis: Benchmarks and Insights from PTB-XL"
+  author: "Nils Strodthoff, Patrick Wagner, Tobias Schaeffter, Wojciech Samek"
+  year: 2020
+  tags: ["ECG", "XAI"]
+  uri: "https://ieeexplore.ieee.org/abstract/document/9190034/authors#authors"
+  pdf: "Deep_Learning_for_ECG_Analysis_Benchmarks_and_Insights_from_PTB-XL.pdf"
+  bibtex: |
+    @article{strodthoff2020deep,
+      title={Deep learning for ECG analysis: Benchmarks and insights from PTB-XL},
+      author={Strodthoff, Nils and Wagner, Patrick and Schaeffter, Tobias and Samek, Wojciech},
+      journal={IEEE Journal of Biomedical and Health Informatics},
+      volume={25},
+      number={5},
+      pages={1519--1528},
+      year={2020},
+      publisher={IEEE}
+    }
 
