@@ -456,19 +456,20 @@ data:
   pdf: "sixt20a.pdf"
   bibtex: |
     @inproceedings{sixt2020explanations,
-    title={When explanations lie: Why many modified bp attributions fail},
-    author={Sixt, Leon and Granz, Maximilian and Landgraf, Tim},
-    booktitle={International Conference on Machine Learning},
-    pages={9046--9057},
-    year={2020},
-    organization={PMLR}
-  }
+      title={When explanations lie: Why many modified bp attributions fail},
+      author={Sixt, Leon and Granz, Maximilian and Landgraf, Tim},
+      booktitle={International Conference on Machine Learning},
+      pages={9046--9057},
+      year={2020},
+      organization={PMLR}
+    }
+
 
 - title: "Deep Learning for ECG Analysis: Benchmarks and Insights from PTB-XL"
   author: "Nils Strodthoff, Patrick Wagner, Tobias Schaeffter, Wojciech Samek"
   year: 2020
   tags: ["ECG", "XAI"]
-  uri: "https://ieeexplore.ieee.org/abstract/document/9190034/authors#authors"
+  uri: "https://ieeexplore.ieee.org/abstract/document/9190034"
   pdf: "Deep_Learning_for_ECG_Analysis_Benchmarks_and_Insights_from_PTB-XL.pdf"
   bibtex: |
     @article{strodthoff2020deep,
@@ -481,4 +482,5 @@ data:
       year={2020},
       publisher={IEEE}
     }
+
 
