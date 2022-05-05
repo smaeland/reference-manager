@@ -483,4 +483,37 @@ data:
       publisher={IEEE}
     }
 
+- title: "Axiomatic Attribution for Multilinear Functions"
+  author: "Yi Sun, Mukund Sundararajan"
+  year: 2011
+  tags: ["XAI"]
+  uri: "https://dl.acm.org/doi/abs/10.1145/1993574.1993601"
+  pdf: "1102.0989.pdf"
+  bibtex: |
+    @inproceedings{sun2011axiomatic,
+      title={Axiomatic attribution for multilinear functions},
+      author={Sun, Yi and Sundararajan, Mukund},
+      booktitle={Proceedings of the 12th ACM conference on Electronic commerce},
+      pages={177--178},
+      year={2011}
+   }
+
+- title: "A fast and objective multidimensional kernel density estimation method: fastKDE"
+  author: "Travis A.O Brien, Karthik Kashinatha, Nicholas R. Cavanaugh, William D.Collins, John P. O’Brien"
+  year: 2016
+  tags: ["Density estimation"]
+  uri: "https://www.sciencedirect.com/science/article/pii/S0167947316300408"
+  pdf: "1-s2.0-S0167947316300408-main.pdf"
+  bibtex: | 
+    @article{o2016fast,
+      title={A fast and objective multidimensional kernel density estimation method: fastKDE},
+      author={O’Brien, Travis A and Kashinath, Karthik and Cavanaugh, Nicholas R and Collins, William D and O’Brien, John P},
+      journal={Computational Statistics \& Data Analysis},
+      volume={101},
+      pages={148--160},
+      year={2016},
+      publisher={Elsevier}
+    }
+
+
 
