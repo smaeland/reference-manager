@@ -496,7 +496,7 @@ data:
       booktitle={Proceedings of the 12th ACM conference on Electronic commerce},
       pages={177--178},
       year={2011}
-   }
+    }
 
 - title: "A fast and objective multidimensional kernel density estimation method: fastKDE"
   author: "Travis A.O Brien, Karthik Kashinatha, Nicholas R. Cavanaugh, William D.Collins, John P. O’Brien"
