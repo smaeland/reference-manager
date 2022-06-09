@@ -702,4 +702,71 @@ data:
       publisher={APS}
     }
 
+- title: "Emerging Properties in Self-Supervised Vision Transformers"
+  author: "Mathilde Caron;  Hugo Touvron;  Ishan Misra;  Herve Jegou;  Julien Mairal;  Piotr Bojanowski;  Armand Joulin"
+  year: 2021
+  tags: ["Self-supervised"]
+  uri: "https://openaccess.thecvf.com/content/ICCV2021/html/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.html"
+  pdf: "Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf"
+  bibtex: |
+    @inproceedings{caron2021emerging,
+      title={Emerging properties in self-supervised vision transformers},
+      author={Caron, Mathilde and Touvron, Hugo and Misra, Ishan and J{\'e}gou, Herv{\'e} and Mairal, Julien and Bojanowski, Piotr and Joulin, Armand},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+      pages={9650--9660},
+      year={2021}
+    }
+
+- title: "Revisiting Self-Supervised Visual Representation Learning"
+  author: "Alexander Kolesnikov,  Xiaohua Zhai,  Lucas Beyer"
+  year: 2019
+  tags: ["Self-supervised"]
+  uri: "https://openaccess.thecvf.com/content_CVPR_2019/html/Kolesnikov_Revisiting_Self-Supervised_Visual_Representation_Learning_CVPR_2019_paper.html"
+  pdf: "Kolesnikov_Revisiting_Self-Supervised_Visual_Representation_Learning_CVPR_2019_paper.pdf"
+  bibtex: |
+    @inproceedings{kolesnikov2019revisiting,
+      title={Revisiting self-supervised visual representation learning},
+      author={Kolesnikov, Alexander and Zhai, Xiaohua and Beyer, Lucas},
+      booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+      pages={1920--1929},
+      year={2019}
+    }
+
+- title: "Deep Learning for Anomaly Detection: A Review"
+  author: "Guansong Pang, Chunhua Shen, Longbing Cao, Anton van den Hengel"
+  year: 2020
+  tags: ["Anomaly detection"]
+  uri: "https://dl.acm.org/doi/abs/10.1145/3439950"
+  pdf: "2007.02500.pdf"
+  bibtex: |
+    @article{pang2021deep,
+      title={Deep learning for anomaly detection: A review},
+      author={Pang, Guansong and Shen, Chunhua and Cao, Longbing and Hengel, Anton Van Den},
+      journal={ACM Computing Surveys (CSUR)},
+      volume={54},
+      number={2},
+      pages={1--38},
+      year={2021},
+      publisher={ACM New York, NY, USA}
+    }
+
+- title: "Self-supervised visual feature learning with deep neural networks: A survey"
+  author: "Longlong Jing, Yingli Tian"
+  year: 2019
+  tags: ["Self-supervised"]
+  uri: "https://ieeexplore.ieee.org/abstract/document/9086055"
+  pdf: "1902.06162.pdf"
+  bibtex: |
+    @article{jing2020self,
+      title={Self-supervised visual feature learning with deep neural networks: A survey},
+      author={Jing, Longlong and Tian, Yingli},
+      journal={IEEE transactions on pattern analysis and machine intelligence},
+      volume={43},
+      number={11},
+      pages={4037--4058},
+      year={2020},
+      publisher={IEEE}
+    }
+
+
 
