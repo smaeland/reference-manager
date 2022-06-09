@@ -515,5 +515,191 @@ data:
       publisher={Elsevier}
     }
 
+- title: "Enhancing seismic calving event identification in Svalbard through empirical matched field processing and machine learning"
+  author: "A Köhler, E B Myklebust, S Mæland"
+  year: 2022
+  tags: ["NORSAR"]
+  uri: "https://academic.oup.com/gji/article/230/2/1305/6551899"
+  pdf: "ggac117.pdf"
+  bibtex: |
+    @article{10.1093/gji/ggac117,
+      author = {Köhler, A and Myklebust, E B and Mæland, S},
+      title = "{Enhancing seismic calving event identification in Svalbard through empirical matched field processing and machine learning}",
+      journal = {Geophysical Journal International},
+      volume = {230},
+      number = {2},
+      pages = {1305-1317},
+      year = {2022},
+      month = {03},
+      issn = {0956-540X},
+      doi = {10.1093/gji/ggac117},
+      url = {https://doi.org/10.1093/gji/ggac117},
+      eprint = {https://academic.oup.com/gji/article-pdf/230/2/1305/43541123/ggac117.pdf},
+    }
+
+- title: "Investigating Saturation Effects in Integrated Gradients"
+  author: "Vivek Miglani, Narine Kokhlikyan, Bilal Alsallakh, Miguel Martin, Orion Reblitz-Richardson"
+  year: 2020
+  tags: ["XAI"]
+  uri: "https://arxiv.org/abs/2010.12697"
+  pdf: "2010.12697.pdf"
+  bibtex: |
+    @article{miglani2020investigating,
+      title={Investigating saturation effects in integrated gradients},
+      author={Miglani, Vivek and Kokhlikyan, Narine and Alsallakh, Bilal and Martin, Miguel and Reblitz-Richardson, Orion},
+      journal={arXiv preprint arXiv:2010.12697},
+      year={2020}
+    }
+    
+- title: "The Shattered Gradients Problem: If resnets are the answer, then what is the question?"
+  author: "David Balduzzi, Marcus Frean, Lennox Leary, JP Lewis, Kurt Wan-Duo Ma, Brian McWilliams"
+  year: 2017
+  tags: ["CNNs"]
+  uri: "https://proceedings.mlr.press/v70/balduzzi17b.html"
+  pdf: "balduzzi17b.pdf"
+  bibtex: |
+    @inproceedings{balduzzi2017shattered,
+      title={The shattered gradients problem: If resnets are the answer, then what is the question?},
+      author={Balduzzi, David and Frean, Marcus and Leary, Lennox and Lewis, JP and Ma, Kurt Wan-Duo and McWilliams, Brian},
+      booktitle={International Conference on Machine Learning},
+      pages={342--350},
+      year={2017},
+      organization={PMLR}
+    }
+
+- title: "The frontier of simulation-based inference"
+  author: "Kyle Cranmer, Johann Brehmer, and Gilles Louppe"
+  year: 2020
+  tags: ["HEP"]
+  uri: "https://doi.org/10.1073/pnas.1912789117"
+  pdf: "pnas.1912789117.pdf"
+  bibtex: |
+    @article{cranmer2020frontier,
+      title={The frontier of simulation-based inference},
+      author={Cranmer, Kyle and Brehmer, Johann and Louppe, Gilles},
+      journal={Proceedings of the National Academy of Sciences},
+      volume={117},
+      number={48},
+      pages={30055--30062},
+      year={2020},
+      publisher={National Acad Sciences}
+    }
+
+- title: "INSTANCE – the Italian seismic dataset for machine learning"
+  author: "Alberto Michelini, Spina Cianetti, Sonja Gaviano, Carlo Giunchi, Dario Jozinović, and Valentino Lauciani"
+  year: 2021
+  tags: ["Seismology"]
+  uri: "https://essd.copernicus.org/articles/13/5509/2021/"
+  pdf: "essd-13-5509-2021.pdf"
+  bibtex: |
+    @article{michelini2021instance,
+      title={INSTANCE--the Italian seismic dataset for machine learning},
+      author={Michelini, Alberto and Cianetti, Spina and Gaviano, Sonja and Giunchi, Carlo and Jozinovi{\'c}, Dario and Lauciani, Valentino},
+      journal={Earth System Science Data},
+      volume={13},
+      number={12},
+      pages={5509--5544},
+      year={2021},
+      publisher={Copernicus GmbH}
+    }
+
+- title: "Deep learning"
+  author: "Yann LeCun, Yoshua Bengio, Geoffrey Hinton"
+  year: 2015
+  tags: ["ML", "Review"]
+  uri: "https://www.nature.com/articles/nature14539"
+  pdf: "lecun2015.pdf"
+  bibtex: |
+    @article{lecun2015deep,
+      title={Deep learning},
+      author={LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey},
+      journal={nature},
+      volume={521},
+      number={7553},
+      pages={436--444},
+      year={2015},
+      publisher={Nature Publishing Group}
+    }
+
+- title: "Seismic signal augmentation to improve generalization of deep neural networks"
+  author: "Weiqiang Zhu, Mostafa Mousavi, Gregory C. Beroza"
+  year: 2020
+  tags: ["Seismology"]
+  uri: "https://www.sciencedirect.com/science/article/abs/pii/S0065268720300030"
+  pdf: "zhu2020.pdf"
+  bibtex: |
+    @incollection{zhu2020seismic,
+      title={Seismic signal augmentation to improve generalization of deep neural networks},
+      author={Zhu, Weiqiang and Mousavi, S Mostafa and Beroza, Gregory C},
+      booktitle={Advances in geophysics},
+      volume={61},
+      pages={151--177},
+      year={2020},
+      publisher={Elsevier}
+    }
+
+- title: "Jared Kaplan"
+  author: "Notes on Contemporary Machine Learning for Physicists"
+  year: 2019
+  tags: ["Review"]
+  uri: "https://sites.krieger.jhu.edu/jared-kaplan/files/2019/04/ContemporaryMLforPhysicists.pdf"
+  pdf: "ContemporaryMLforPhysicists.pdf"
+  bibtex: |
+    @article{kaplannotes,
+      title={Notes on Contemporary Machine Learning for Physicists},
+      author={Kaplan, Jared}
+    }
+
+- title: "Intra-domain and cross-domain transfer learning for time series data — How transferable are the features?"
+  author: "Erik Otović, Marko Njirjak, Dario Jozinović, Goran Mauša, Alberto Michelini, Ivan S̆tajduhar"
+  year: 2022
+  tags: ["Time series"]
+  uri: "https://www.sciencedirect.com/science/article/abs/pii/S0950705121010984"
+  pdf: "1-s2.0-S0950705121010984-main.pdf"
+  bibtex: |  
+    @article{otovic2022intra,
+      title={Intra-domain and cross-domain transfer learning for time series data—How transferable are the features?},
+      author={Otovi{\'c}, Erik and Njirjak, Marko and Jozinovi{\'c}, Dario and Mau{\v{s}}a, Goran and Michelini, Alberto and S̆tajduhar, Ivan},
+      journal={Knowledge-Based Systems},
+      volume={239},
+      pages={107976},
+      year={2022},
+      publisher={Elsevier}
+    }
+
+- title: "Deep learning in neural networks: An overview"
+  author: "Jürgen Schmidhuber"
+  year: 2014
+  tags: ["Review"]
+  uri: "https://www.sciencedirect.com/science/article/abs/pii/S0893608014002135"
+  pdf: "1404.7828.pdf"
+  bibtex: |
+    @article{schmidhuber2015deep,
+      title={Deep learning in neural networks: An overview},
+      author={Schmidhuber, J{\"u}rgen},
+      journal={Neural networks},
+      volume={61},
+      pages={85--117},
+      year={2015},
+      publisher={Elsevier}
+    }
+
+- title: "CP-violating Higgs Di-tau Decays: Baryogenesis and Higgs Factories"
+  author: "Shao-Feng Ge, Gang Li, Pedro Pasquini, Michael J. Ramsey-Musolf"
+  year: 2020
+  tags: ["HEP"]
+  uri: "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.095027"
+  pdf: "2012.13922.pdf"
+  bibtex: |
+    @article{ge2021c,
+      title={C P-violating Higgs boson ditau decays: Baryogenesis and Higgs factories},
+      author={Ge, Shao-Feng and Li, Gang and Pasquini, Pedro and Ramsey-Musolf, Michael J},
+      journal={Physical Review D},
+      volume={103},
+      number={9},
+      pages={095027},
+      year={2021},
+      publisher={APS}
+    }
 
 
