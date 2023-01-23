@@ -3,6 +3,46 @@
 const baseurl = "https://steffen.maeland.gitlab.io/reference-manager/";
 const col_max_chars = 150;
 var table;
+var inventory;
+var tagColors = {};
+const numTagColors = 21;
+
+
+
+function getTags(inv) {
+    const data = inv["data"];
+
+    function addIncrement(dict, key) {
+        if (key in dict) {
+            dict[key]++;
+        }
+        else {
+            dict[key] = 1;
+        }
+    }
+
+    // Get tag names and their counts 
+    let tagCounts = {};
+    for (const elementKey in data) {
+        const elementTags = data[elementKey].tags;
+        for (let j = 0; j < elementTags.length; j++) {
+            addIncrement(tagCounts, elementTags[j]);
+        }
+    }
+
+    let tagsSorted = Object.keys(tagCounts).sort(
+        function (a, b) {
+            return tagCounts[b] - tagCounts[a]
+        }
+    );
+    console.log(tagsSorted)
+    
+    // Assign colors to each tag
+    for (let i = 0; i < tagsSorted.length; i++) {
+        tagColors[tagsSorted[i]] = i % numTagColors;
+    }
+    console.log('tagColors:', tagColors)
+};
 
 $(document).ready(function() {
 
@@ -10,11 +50,26 @@ $(document).ready(function() {
         .done(function (data) {
             
             var inventory = jsyaml.load(data);
-            console.log(inventory)
-            
+            getTags(inventory);
+
             table = $('#table').DataTable({
+                dom: 'Plfrtip',
+                searchPanes: {
+                    initCollapsed: true,
+                    columns: [3, 2],
+                    cascadePanes: true,
+                    dtOpts: {
+                        select: {
+                            style: 'multi'
+                        },
+                        order: [[1, "count"]]
+                    },
+                    i18n: {
+                        emptyMessage: "<i><b>No tag</b></i>"
+                    }
+                },
                 data: inventory['data'],
-                lengthMenu: [[100, 200, -1], [100, 200,"All"]],
+                lengthMenu: [[100, 200, -1], [100, 200, "All"]],
                 columns: [
                     {
                         data: "title",
@@ -45,8 +100,26 @@ $(document).ready(function() {
                     {
                         data: "tags",
                         title: "Tags",
-                        render: function(data) {
-                            return data.join(', ')
+                        // https://datatables.net/extensions/searchpanes/rendering
+                        render: {
+                            _: function(data) {
+                                let badges = [];
+                                data.forEach(function (tag, index) {
+                                    badges.push(`<span class="badge badge-color-${tagColors[tag]}">${tag}</span>`);
+                                });
+                                return badges.join()
+                            },
+                            //sp: '[]'
+                            sp: function(data) {
+                                let badges = [];
+                                data.forEach(function (tag, index) {
+                                    badges.push(`<span class="badge badge-color-${tagColors[tag]}">${tag}</span>`);
+                                });
+                                return badges
+                            },
+                        },
+                        searchPanes: {
+                            orthogonal: 'sp'
                         }
                     },
                     {
@@ -86,7 +159,7 @@ $(document).ready(function() {
                     },
                     {
                         data: "pdf",
-                        //title: "PDF",
+                        title: "PDF",
                         render: function(data, type) {
                             if (type === 'display') {
                                 return '<a href="' + baseurl + 'pdfs/' + data + '" target="blank"><img src="icons/file-earmark-pdf.svg" width="22" height="22"></a>';
@@ -142,7 +215,7 @@ $(document).ready(function() {
     
     $('#table').on('click', 'tr', function () {
         let data = table.row($(this)).data();
-        //console.log(data)
+        console.log(data)
         let author = data["author"] + ' (' + data['year'] + ')';
         let notes = data["notes"]
         if (notes === undefined) {

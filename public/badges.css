@@ -1,0 +1,138 @@
+:root {
+    --bd-blue-400: #3d8bfd;
+    --bd-indigo-400: #8540f5;
+    --bd-purple-400: #8c68cd;
+    --bd-pink-400: #de5c9d;
+    --bd-red-400: #e35d6a;
+    --bd-orange-400: #fd9843;
+    --bd-yellow-400: #ffcd39;
+    --bd-green-400: #479f76;
+    --bd-teal-400: #4dd4ac;
+    --bd-cyan-400: #3dd5f3;
+    --bd-gray-400: #ced4da;
+    --bd-blue-200: #9ec5fe;
+    --bd-indigo-200: #c29ffa;
+    --bd-purple-200: #c5b3e6;
+    --bd-pink-200: #efadce;
+    --bd-red-200: #f1aeb5;
+    --bd-orange-200: #fecba1;
+    --bd-yellow-200: #ffe69c;
+    --bd-green-200: #a3cfbb;
+    --bd-teal-200: #a6e9d5;
+    --bd-cyan-200: #9eeaf9;
+    --bd-gray-200: #e9ecef;
+
+}
+
+
+
+.badge-color-0 {
+    color: #fff;
+    background-color: var(--bd-blue-400);
+}
+
+.badge-color-1 {
+    color: #fff;
+    background-color: var(--bd-indigo-400);
+}
+
+.badge-color-2 {
+    color: #fff;
+    background-color: var(--bd-purple-400);
+}
+
+.badge-color-3 {
+    color: #fff;
+    background-color: var(--bd-pink-400);
+}
+
+.badge-color-4 {
+    color: #fff;
+    background-color: var(--bd-red-400);
+}
+
+.badge-color-5 {
+    color: #000;
+    background-color: var(--bd-orange-400);
+}
+
+.badge-color-6 {
+    color: #000;
+    background-color: var(--bd-yellow-400);
+}
+
+.badge-color-7 {
+    color: #fff;
+    background-color: var(--bd-green-400);
+}
+
+.badge-color-8 {
+    color: #000;
+    background-color: var(--bd-teal-400);
+}
+
+.badge-color-9 {
+    color: #000;
+    background-color: var(--bd-cyan-400);
+}
+
+.badge-color-10 {
+    color: #000;
+    background-color: var(--bd-gray-400);
+}
+
+.badge-color-11 {
+    color: #000;
+    background-color: var(--bd-blue-200);
+}
+
+.badge-color-12 {
+    color: #000;
+    background-color: var(--bd-indigo-200);
+}
+
+.badge-color-13 {
+    color: #000;
+    background-color: var(--bd-purple-200);
+}
+
+.badge-color-14 {
+    color: #000;
+    background-color: var(--bd-pink-200);
+}
+
+.badge-color-15 {
+    color: #000;
+    background-color: var(--bd-red-200);
+}
+
+.badge-color-16 {
+    color: #000;
+    background-color: var(--bd-orange-200);
+}
+
+.badge-color-17 {
+    color: #000;
+    background-color: var(--bd-yellow-200);
+}
+
+.badge-color-18 {
+    color: #000;
+    background-color: var(--bd-green-200);
+}
+
+.badge-color-19 {
+    color: #000;
+    background-color: var(--bd-teal-200);
+}
+
+.badge-color-20 {
+    color: #000;
+    background-color: var(--bd-cyan-200);
+}
+
+.badge-color-21 {
+    color: #000;
+    background-color: var(--bd-gray-200);
+}
+
