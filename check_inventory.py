@@ -1,5 +1,4 @@
 import subprocess
-#import json
 from glob import glob
 import re
 import yaml
@@ -7,9 +6,16 @@ import yaml
 
 def get_metadata(filename):
 
-    pdf_path = 'public/pdfs/' + filename
+    pdf_path = 'pdfs/' + filename
     
-    raw_meta = subprocess.run(['pdfinfo', pdf_path], capture_output=True)
+    try:
+        raw_meta = subprocess.run(['pdfinfo', pdf_path], capture_output=True)
+    except FileNotFoundError as exc:
+        print(exc)
+        print('\n\n')
+        print('\'pdfinfo\' not installed, install with \' sudo apt install poppler-utils\'')
+        exit(1)
+
     raw_meta = raw_meta.stdout.decode()
     metadata = {}
     for line in raw_meta.strip().split('\n'):
@@ -37,12 +43,12 @@ def get_metadata(filename):
 if __name__ == '__main__':
     
     # Load yaml entries, extract "pdf" fields as a list
-    with open('public/data.yml') as fin:
+    with open('data.yml') as fin:
         data = yaml.load(fin, Loader=yaml.CLoader)['data']
     imported_pdfs = set([x['pdf'] for x in data])
 
     # Collect downloaded PDFs 
-    downloaded_pdfs = glob('public/pdfs/*.pdf')
+    downloaded_pdfs = glob('pdfs/*.pdf')
     downloaded_pdfs = set([x.split('/')[-1] for x in downloaded_pdfs])    # Get basename
     
     # Get unimported PDFs

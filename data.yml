@@ -74,7 +74,7 @@ data:
 - title: "Signal mixture estimation for degenerate heavy Higgses using a deep neural network"
   author: "Anders Kvellestad, Steffen Maeland, Inga Strümke"
   year: 2018
-  tags: ["HEP", "ML"]
+  tags: ["HEP", "ML", "SM"]
   uri: "https://doi.org/10.1140/epjc/s10052-018-6455-z"
   pdf: "Kvellestad2018_Article_SignalMixtureEstimationForDege.pdf"
   bibtex: |
@@ -417,7 +417,7 @@ data:
 - title: "Stochastic Modeling of Stratospheric Temperature"
   author: "Mari Dahl Eggen, Kristina Rognlien Dahl, Sven Peter Näsholm, Steffen Mæland "
   year: 2022 
-  tags: ["NORSAR"]
+  tags: ["NORSAR", "SM"]
   uri: "https://link.springer.com/article/10.1007/s11004-021-09990-6"
   pdf: "Eggen2022_Article_StochasticModelingOfStratosphe.pdf"
   bibtex: |
@@ -518,7 +518,7 @@ data:
 - title: "Enhancing seismic calving event identification in Svalbard through empirical matched field processing and machine learning"
   author: "A Köhler, E B Myklebust, S Mæland"
   year: 2022
-  tags: ["NORSAR"]
+  tags: ["NORSAR", "SM"]
   uri: "https://academic.oup.com/gji/article/230/2/1305/6551899"
   pdf: "ggac117.pdf"
   bibtex: |
@@ -554,7 +554,7 @@ data:
 - title: "The Shattered Gradients Problem: If resnets are the answer, then what is the question?"
   author: "David Balduzzi, Marcus Frean, Lennox Leary, JP Lewis, Kurt Wan-Duo Ma, Brian McWilliams"
   year: 2017
-  tags: ["CNNs"]
+  tags: ["CNN"]
   uri: "https://proceedings.mlr.press/v70/balduzzi17b.html"
   pdf: "balduzzi17b.pdf"
   bibtex: |
@@ -787,5 +787,93 @@ data:
       year = {2017}
     }
 
+- title: "New observables for CP violation in Higgs decays"
+  author: "Yi Chen, Adam Falkowski, Ian Low, Roberto Vega-Morales"
+  year: 2014
+  tags: ["HEP", "Higgs"]
+  uri: "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.90.113006"
+  pdf: "1405.6723.pdf"
+  bibtex: |
+    @article{chen2014new,
+      title={New observables for C P violation in Higgs decays},
+      author={Chen, Yi and Falkowski, Adam and Low, Ian and Vega-Morales, Roberto},
+      journal={Physical Review D},
+      volume={90},
+      number={11},
+      pages={113006},
+      year={2014},
+      publisher={APS}
+    }
+  added: "2023-01-25"
 
+- title: "Machine-enhanced CP-asymmetries in the Higgs sector"
+  author: "Akanksha Bhardwaj, Christoph Englert, Robert Hankache, Andrew D. Pilkington"
+  year: 2022
+  tags: ["HEP", "Higgs"]
+  uri: "https://www.sciencedirect.com/science/article/pii/S037026932200380X"
+  pdf: "2112.05052.pdf"
+  bibtex: |
+    @article{bhardwaj2022machine,
+      title={Machine-enhanced CP-asymmetries in the Higgs sector},
+      author={Bhardwaj, Akanksha and Englert, Christoph and Hankache, Robert and Pilkington, Andrew D},
+      journal={Physics Letters B},
+      pages={137246},
+      year={2022},
+      publisher={Elsevier}
+    }
+  added: "2023-01-25"
 
+- title: "Moving to a world beyond p < 0.05"
+  author: "Wasserstein, Ronald L., Allen L. Schirm, and Nicole A. Lazar"
+  year: 2019
+  tags: ["Stats"]
+  uri: "https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913"
+  pdf: "asa2019.pdf"
+  bibtex: |
+    @misc{wasserstein2019moving,
+      title={Moving to a world beyond “p< 0.05”},
+      author={Wasserstein, Ronald L and Schirm, Allen L and Lazar, Nicole A},
+      journal={The American Statistician},
+      volume={73},
+      number={sup1},
+      pages={1--19},
+      year={2019},
+      publisher={Taylor \& Francis}
+    }
+  added: "2022-11-01"
+
+- title: "Deep Neural Networks for Physics Analysis on low-level whole-detector data at the LHC"
+  author: "Wahid Bhimji, Steven Andrew Farrell, Thorsten Kurth, Michela Paganini, Prabhat, Evan Racah"
+  year: 2018
+  tags: ["HEP", "ML"]
+  uri: "https://iopscience.iop.org/article/10.1088/1742-6596/1085/4/042034/meta"
+  pdf: "1711.03573.pdf"
+  bibtex: |
+    @inproceedings{bhimji2018deep,
+      title={Deep neural networks for physics analysis on low-level whole-detector data at the LHC},
+      author={Bhimji, Wahid and Farrell, Steven Andrew and Kurth, Thorsten and Paganini, Michela and Racah, Evan and others},
+      booktitle={Journal of Physics: Conference Series},
+      volume={1085},
+      number={4},
+      pages={042034},
+      year={2018},
+      organization={IOP Publishing}
+    }
+
+- title: "Building Stock Classification Using Machine Learning: A Case Study for Oslo, Norway"
+  author: "Federica Ghione, Steffen Mæland, Abdelghani Meslem, Volker Oye"
+  year: 2022
+  tags: ["Building-ML", "NORSAR", "SM"]
+  uri: "https://www.frontiersin.org/articles/10.3389/feart.2022.886145/full"
+  pdf: "feart-10-886145.pdf"
+  bibtex: |
+    @article{ghione2022building,
+      title={Building Stock Classification Using Machine Learning: A Case Study for Oslo, Norway},
+      author={Ghione, F and M{\ae}land, S and Meslem, A and Oye, V},
+      journal={New Challenges for Seismic Risk Mitigation in Urban Areas},
+      volume={10},
+      pages={88},
+      year={2022},
+      publisher={Frontiers Media SA}
+    }
+  added: "2022-07-16"
