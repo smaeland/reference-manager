@@ -1,6 +1,6 @@
 'use strict'
 
-const baseurl = "https://steffen.maeland.gitlab.io/reference-manager/";
+const baseurl = "https://smaeland.github.io/reference-manager/";
 const col_max_chars = 150;
 var table;
 var inventory;
@@ -74,11 +74,8 @@ $(document).ready(function() {
                     {
                         data: "title",
                         title: "Title",
-                        render: function(data) {
-                            if (data.length > col_max_chars) {
-                                return data.slice(0, col_max_chars-3) + '...'
-                            }
-                            return data
+                        render: function(data, type, row, meta) {
+                            return data.length > col_max_chars ? '<span title="'+data+'">'+data.substr(0, col_max_chars-3)+'...</span>' : data;
                         }
                     },
                     {                        
@@ -88,7 +85,8 @@ $(document).ready(function() {
                             data = data.replace(/\sand/g, ',')    
                             let num_authors = (data.match(/,/g) || []).length;
                             if (num_authors > 3 || data.length > col_max_chars) {
-                                return data.split(',')[0] + ' et al.'
+                                return '<span title="'+data+'">'+data.split(',')[0] + ' et al.</span>'
+                                //return data.split(',')[0] + ' et al.'
                             }
                             return data
                         }
