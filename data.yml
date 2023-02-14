@@ -877,3 +877,114 @@ data:
       publisher={Frontiers Media SA}
     }
   added: "2022-07-16"
+
+- title: "An efficient Lorentz equivariant graph neural network for jet tagging"
+  author: "Shiqi Gong, Qi Meng, Jue Zhang, Huilin Qu, Congqiao Li, Sitian Qian, Weitao Du, Zhi-Ming Ma, Tie-Yan Liu"
+  year: 2022
+  tags: ["HEP", "GNN", "Jet tagging"]
+  uri: "https://link.springer.com/article/10.1007/JHEP07(2022)030"
+  pdf: "2201.08187.pdf"
+  bibtex: |
+    @article{gong2022efficient,
+      title={An efficient Lorentz equivariant graph neural network for jet tagging},
+      author={Gong, Shiqi and Meng, Qi and Zhang, Jue and Qu, Huilin and Li, Congqiao and Qian, Sitian and Du, Weitao and Ma, Zhi-Ming and Liu, Tie-Yan},
+      journal={Journal of High Energy Physics},
+      volume={2022},
+      number={7},
+      pages={1--22},
+      year={2022},
+      publisher={Springer}
+    }
+  added: "2023-01-30"
+
+- title: "Modern machine learning and particle physics"
+  author: "Matthew D. Schwartz"
+  year: 2021
+  tags: ["HEP", "ML", "Review"]
+  uri: "https://arxiv.org/abs/2103.12226"
+  pdf: "2103.12226.pdf"
+  bibtex: |
+    @article{schwartz2021modern,
+      title={Modern machine learning and particle physics},
+      author={Schwartz, Matthew D},
+      journal={arXiv preprint arXiv:2103.12226},
+      year={2021},
+      publisher={Mar}
+    }
+  added: "2023-01-30"
+
+- title: "Machine learning at the energy and intensity frontiers of particle physics"
+  author: "Alexander Radovic, Mike Williams, David Rousseau, Michael Kagan, Daniele Bonacorsi, Alexander Himmel, Adam Aurisano, Kazuhiro Terao, Taritree Wongjirad "
+  year: 2018
+  tags: ["Review", "HEP", "ML"]
+  uri: "https://www.nature.com/articles/s41586-018-0361-2"
+  pdf: "document.pdf"
+  bibtex: |
+    @article{radovic2018machine,
+      title={Machine learning at the energy and intensity frontiers of particle physics},
+      author={Radovic, Alexander and Williams, Mike and Rousseau, David and Kagan, Michael and Bonacorsi, Daniele and Himmel, Alexander and Aurisano, Adam and Terao, Kazuhiro and Wongjirad, Taritree},
+      journal={Nature},
+      volume={560},
+      number={7716},
+      pages={41--48},
+      year={2018},
+      publisher={Nature Publishing Group UK London}
+    }
+  added: "2023-01-29"
+
+- title: "Fast convolutional neural networks on FPGAs with hls4ml"
+  author: "Thea Aarrestad,Vladimir Loncar,Nicolò Ghielmetti,Maurizio Pierini,Sioni Summers,Jennifer Ngadiuba,Christoffer Petersson,Hampus Linander,Yutaro Iiyama,Giuseppe Di Guglielmo,Javier Duarte,Philip Harris,Dylan Rankin,Sergo Jindariani,Kevin Pedro,Nhan Tran,Mia Liu,Edward Kreinar,Zhenbin Wu,Duc Hoang"
+  year: 2021
+  tags: ["CNN", "FPGA"]
+  uri: "https://iopscience.iop.org/article/10.1088/2632-2153/ac0ea1"
+  pdf: "Aarrestad_2021_Mach._Learn. _Sci._Technol._2_045015.pdf"
+  bibtex: |
+    @article{aarrestad2021fast,
+      title={Fast convolutional neural networks on FPGAs with hls4ml},
+      author={Aarrestad, Thea and Loncar, Vladimir and Ghielmetti, Nicol{\`o} and Pierini, Maurizio and Summers, Sioni and Ngadiuba, Jennifer and Petersson, Christoffer and Linander, Hampus and Iiyama, Yutaro and Di Guglielmo, Giuseppe and others},
+      journal={Machine Learning: Science and Technology},
+      volume={2},
+      number={4},
+      pages={045015},
+      year={2021},
+      publisher={IOP Publishing}
+    }
+  added: "2023-01-30"
+
+- title: "Machine Learning in the Search for New Fundamental Physics"
+  author: "Georgia Karagiorgi, Gregor Kasieczka, Scott Kravitz, Benjamin Nachman, David Shih"
+  year: 2021
+  tags: ["HEP", "Review"]
+  uri: "https://www.nature.com/articles/s42254-022-00455-1"
+  pdf: "2112.03769.pdf"
+  bibtex: |
+    @article{karagiorgi2022machine,
+      title={Machine learning in the search for new fundamental physics},
+      author={Karagiorgi, Georgia and Kasieczka, Gregor and Kravitz, Scott and Nachman, Benjamin and Shih, David},
+      journal={Nature Reviews Physics},
+      volume={4},
+      number={6},
+      pages={399--412},
+      year={2022},
+      publisher={Nature Publishing Group UK London}
+    }
+  added: "2023-02-14"
+
+- title: ""
+  author: ""
+  year: 2017
+  tags: ["HEP", "Jet tagging"]
+  uri: "https://link.springer.com/article/10.1007/JHEP01(2017)110"
+  pdf: "JHEP01(2017)110.pdf"
+  bibtex: |
+    @article{komiske2017deep,
+      title={Deep learning in color: towards automated quark/gluon jet discrimination},
+      author={Komiske, Patrick T and Metodiev, Eric M and Schwartz, Matthew D},
+      journal={Journal of High Energy Physics},
+      volume={2017},
+      number={1},
+      pages={1--23},
+      year={2017},
+      publisher={Springer}
+    }
+  added: "2023-02-13"
