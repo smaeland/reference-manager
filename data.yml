@@ -918,7 +918,7 @@ data:
   year: 2018
   tags: ["Review", "HEP", "ML"]
   uri: "https://www.nature.com/articles/s41586-018-0361-2"
-  pdf: "document.pdf"
+  pdf: "s41586-018-0361-2.pdf"
   bibtex: |
     @article{radovic2018machine,
       title={Machine learning at the energy and intensity frontiers of particle physics},
@@ -970,8 +970,8 @@ data:
     }
   added: "2023-02-14"
 
-- title: ""
-  author: ""
+- title: "Deep learning in color: towards automated quark/gluon jet discrimination"
+  author: "Patrick T. Komiske, Eric M. Metodiev, Matthew D. Schwartz"
   year: 2017
   tags: ["HEP", "Jet tagging"]
   uri: "https://link.springer.com/article/10.1007/JHEP01(2017)110"
@@ -988,3 +988,179 @@ data:
       publisher={Springer}
     }
   added: "2023-02-13"
+
+- title: "Deep Learning and its Application to LHC Physics"
+  author: "Dan Guest, Kyle Cranmer, Daniel Whiteson"
+  year: 2018
+  tags: ["HEP", "Review"]
+  uri: "https://www.annualreviews.org/doi/full/10.1146/annurev-nucl-101917-021019"
+  pdf: "1806.11484.pdf"
+  bibtex: |
+    @article{guest2018deep,
+      title={Deep learning and its application to LHC physics},
+      author={Guest, Dan and Cranmer, Kyle and Whiteson, Daniel},
+      journal={Annual Review of Nuclear and Particle Science},
+      volume={68},
+      pages={161--181},
+      year={2018},
+      publisher={Annual Reviews}
+    }
+  added: "2023-01-30"
+
+- title: "Quark versus Gluon Jet Tagging Using Jet Images with the ATLAS Detector"
+  author: "The ATLAS Collaboration"
+  year: 2017
+  tags: ["HEP", "Jet tagging"]
+  uri: "https://cds.cern.ch/record/2275641/"
+  pdf: "ATL-PHYS-PUB-2017-017.pdf"
+  bibtex: |
+    @article{ATLAS:2017dfg,
+      collaboration = "ATLAS",
+      title = "{Quark versus Gluon Jet Tagging Using Jet Images with the ATLAS Detector}",
+      reportNumber = "ATL-PHYS-PUB-2017-017",
+      month = "7",
+      year = "2017"
+    }
+  added: "2023-01-30"
+
+
+- title: "Particle Transformer for Jet Tagging"
+  author: "Huilin Qu, Congqiao Li, Sitian Qian"
+  year: 2022
+  tags: ["HEP", "Jet tagging"]
+  uri: "https://arxiv.org/abs/2202.03772"
+  pdf: "2202.03772.pdf"
+  bibtex: |
+    @inproceedings{qu2022particle,
+      title={Particle transformer for jet tagging},
+      author={Qu, Huilin and Li, Congqiao and Qian, Sitian},
+      booktitle={International Conference on Machine Learning},
+      pages={18281--18292},
+      year={2022},
+      organization={PMLR}
+    }
+  added: "2023-01-30"
+
+- title: "Fast inference of deep neural networks in FPGAs for particle physics"
+  author: "Javier Duarte, Song Han, Philip Harris, Sergo Jindariani, Edward Kreinar, Benjamin Kreis, Jennifer Ngadiuba, Maurizio Pierini, Ryan Rivera, Nhan Tran, Zhenbin Wu"
+  year: 2018
+  tags: ["HEP", "FPGA"]
+  uri: "https://iopscience.iop.org/article/10.1088/1748-0221/13/07/P07027"
+  pdf: "1804.06913.pdf"
+  bibtex: |
+    @article{duarte2018fast,
+      title={Fast inference of deep neural networks in FPGAs for particle physics},
+      author={Duarte, Javier and Han, Song and Harris, Philip and Jindariani, Sergo and Kreinar, Edward and Kreis, Benjamin and Ngadiuba, Jennifer and Pierini, Maurizio and Rivera, Ryan and Tran, Nhan and others},
+      journal={Journal of Instrumentation},
+      volume={13},
+      number={07},
+      pages={P07027},
+      year={2018},
+      publisher={IOP Publishing}
+    }
+  added: "2023-01-30"
+
+- title: "Graph neural networks in particle physics"
+  author: "Jonathan Shlomi, Peter Battaglia, Jean-Roch Vlimant"
+  year: 2021
+  tags: ["HEP", "GNN"]
+  uri: "https://iopscience.iop.org/article/10.1088/2632-2153/abbf9a"
+  pdf: "Shlomi_2021_Mach._Learn. _Sci._Technol._2_021001.pdf"
+  bibtex: |
+    @article{shlomi2020graph,
+      title={Graph neural networks in particle physics},
+      author={Shlomi, Jonathan and Battaglia, Peter and Vlimant, Jean-Roch},
+      journal={Machine Learning: Science and Technology},
+      volume={2},
+      number={2},
+      pages={021001},
+      year={2020},
+      publisher={IOP Publishing}
+    }
+  added: "2023-01-30"
+
+- title: "PELICAN: Permutation Equivariant and Lorentz Invariant or Covariant Aggregator Network for Particle Physics"
+  author: "Alexander Bogatskiy, Timothy Hoffman, David W. Miller, Jan T. Offermann"
+  year: 2022
+  tags: ["HEP"]
+  uri: "https://arxiv.org/abs/2211.00454"
+  pdf: "2211.00454.pdf"
+  bibtex: |
+    @article{bogatskiy2022pelican,
+      title={PELICAN: Permutation Equivariant and Lorentz Invariant or Covariant Aggregator Network for Particle Physics},
+      author={Bogatskiy, Alexander and Hoffman, Timothy and Miller, David W and Offermann, Jan T},
+      journal={arXiv preprint arXiv:2211.00454},
+      year={2022}
+    }
+  added: "2023-02-13"
+
+- title: "Jet-Images: Computer Vision Inspired Techniques for Jet Tagging"
+  author: "Josh Cogan, Michael Kagan, Emanuel Strauss, Ariel Schwartzman"
+  year: 2015
+  tags: ["HEP", "Jet tagging"]
+  uri: "https://link.springer.com/article/10.1007/JHEP02(2015)118"
+  pdf: "1407.5675.pdf"
+  bibtex: |
+    @article{cogan2015jet,
+      title={Jet-images: computer vision inspired techniques for jet tagging},
+      author={Cogan, Josh and Kagan, Michael and Strauss, Emanuel and Schwarztman, Ariel},
+      journal={Journal of High Energy Physics},
+      volume={2015},
+      number={2},
+      pages={1--16},
+      year={2015},
+      publisher={Springer}
+    }
+  added: "2022-12-12"
+
+- title: "Evidence for the Higgs-boson Yukawa coupling to tau leptons with the ATLAS detector"
+  author: "ATLAS Collaboration"
+  year: 2015
+  tags: ["HEP", "Htautau"]
+  uri: "https://link.springer.com/article/10.1007/JHEP04(2015)117"
+  pdf: "JHEP04(2015)117.pdf"
+  bibtex: |
+    @article{aad2015evidence,
+      title={Evidence for the Higgs-boson Yukawa coupling to tau leptons with the ATLAS detector},
+      author={Aad, Georges and Abbott, Brad and Abdallah, Jalal and Abdel Khalek, Samah and Aben, R and Abi, B and Abolins, M and AbouZeid, OS and Abramowicz, H and Abreu, H and others},
+      journal={Journal of high energy physics},
+      volume={2015},
+      number={4},
+      pages={1--74},
+      year={2015},
+      publisher={Springer}
+    }
+  added: "2022-09-10"
+
+- title: "Jet tagging via particle clouds"
+  author: "Huilin Qu, Loukas Gouskos"
+  year: 2020
+  tags: ["HEP", "Jet tagging"]
+  uri: "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.056019"
+  pdf: "PhysRevD.101.056019.pdf"
+  bibtex: |
+    @article{qu2020jet,
+      title={Jet tagging via particle clouds},
+      author={Qu, Huilin and Gouskos, Loukas},
+      journal={Physical Review D},
+      volume={101},
+      number={5},
+      pages={056019},
+      year={2020},
+      publisher={APS}
+    }
+  added: "2023-01-30"
+
+- title: "Feature Selection with Distance Correlation"
+  author: "Ranit Das, Gregor Kasieczka, David Shih"
+  year: 2022
+  tags: ["HEP"]
+  uri: "https://arxiv.org/abs/2212.00046"
+  pdf: "2212.00046.pdf"
+  bibtex: |
+    @article{das2022feature,
+      title={Feature Selection with Distance Correlation},
+      author={Das, Ranit and Kasieczka, Gregor and Shih, David},
+      journal={arXiv preprint arXiv:2212.00046},
+      year={2022}
+    }
