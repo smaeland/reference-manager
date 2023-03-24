@@ -1201,4 +1201,43 @@ data:
       publisher={Springer}
     }
   added: "2023-03-16"
-  
+ 
+
+- title: "A Positive Resampler for Monte Carlo events with negative weights"
+  author: "Jeppe R. Andersen, Christian Gutschow, Andreas Maier, Stefan Prestel"
+  year: 2020
+  tags: ["HEP", "MC weights"]
+  uri: "https://link.springer.com/article/10.1140/epjc/s10052-020-08548-w"
+  pdf: "s10052-020-08548-w.pdf"
+  bibtex: |
+    @article{andersen2020positive,
+      title={A Positive Resampler for Monte Carlo events with negative weights},
+      author={Andersen, Jeppe R and G{\"u}tschow, Christian and Maier, Andreas and Prestel, Stefan},
+      journal={The European Physical Journal C},
+      volume={80},
+      pages={1--10},
+      year={2020},
+      publisher={Springer}
+    }
+  added: "2023-03-24"
+
+
+- title: "Unbiased elimination of negative weights in Monte Carlo samples"
+  author: "Jeppe R. Andersen, Andreas Maier"
+  year: 2022
+  tags: ["HEP", "MC weights"]
+  uri: "https://link.springer.com/article/10.1140/epjc/s10052-022-10372-3"
+  pdf: "s10052-022-10372-3.pdf" 
+  bibtex: |
+    @article{andersen2022unbiased,
+      title={Unbiased elimination of negative weights in Monte Carlo samples},
+      author={Andersen, Jeppe R and Maier, Andreas},
+      journal={The European Physical Journal C},
+      volume={82},
+      number={5},
+      pages={433},
+      year={2022},
+      publisher={Springer}
+    }
+  added: "2023-03-24"
+
