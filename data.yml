@@ -1241,3 +1241,30 @@ data:
     }
   added: "2023-03-24"
 
+- title: "Beyond Cuts in Small Signal Scenarios"
+  author: "Daniel Alvestad, Nikolai Fomin, Jörn Kersten, Steffen Maeland, Inga Strümke"
+  year: 2023
+  tags: ["HEP, MC", "SM"]
+  uri: "https://link.springer.com/article/10.1140/epjc/s10052-023-11532-9"
+  pdf: "s10052-023-11532-9"
+  bibtex: |
+    @article{Alvestad2023,
+      author="Alvestad, Daniel
+      and Fomin, Nikolai
+      and Kersten, J{\"o}rn
+      and Maeland, Steffen
+      and Str{\"u}mke, Inga",
+      title="Beyond cuts in small signal scenarios",
+      journal="The European Physical Journal C",
+      year="2023",
+      month="May",
+      day="8",
+      volume="83",
+      number="5",
+      pages="379",
+      issn="1434-6052",
+      doi="10.1140/epjc/s10052-023-11532-9",
+      url="https://doi.org/10.1140/epjc/s10052-023-11532-9"
+    }
+  added: "2023-05-09"
+
