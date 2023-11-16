@@ -1244,7 +1244,7 @@ data:
 - title: "Beyond Cuts in Small Signal Scenarios"
   author: "Daniel Alvestad, Nikolai Fomin, Jörn Kersten, Steffen Maeland, Inga Strümke"
   year: 2023
-  tags: ["HEP, MC", "SM"]
+  tags: ["HEP", "MC", "SM"]
   uri: "https://link.springer.com/article/10.1140/epjc/s10052-023-11532-9"
   pdf: "s10052-023-11532-9"
   bibtex: |
@@ -1267,4 +1267,57 @@ data:
       url="https://doi.org/10.1140/epjc/s10052-023-11532-9"
     }
   added: "2023-05-09"
+
+- title: "Why do tree-based models still outperform deep learning on typical tabular data?"
+  author: "Léo Grinsztajn, Edouard Oyallon, and Gaël Varoquaux"
+  year: 2022
+  tags: ["BDT"]
+  uri: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/0378c7692da36807bdec87ab043cdadc-Abstract-Datasets_and_Benchmarks.html"
+  pdf: "NeurIPS-2022-why-do-tree-based-models-still-outperform-deep-learning-on-typical-tabular-data-Paper-Datasets_and_Benchmarks.pdf"
+  bibtex: |
+    @article{grinsztajn2022tree,
+      title={Why do tree-based models still outperform deep learning on typical tabular data?},
+      author={Grinsztajn, L{\'e}o and Oyallon, Edouard and Varoquaux, Ga{\"e}l},
+      journal={Advances in Neural Information Processing Systems},
+      volume={35},
+      pages={507--520},
+      year={2022}
+    }
+  added: "2023-11-16"
+
+
+- title: "Learning deep representations for ground-to-aerial geolocalization"
+  author: "Tsung-Yi Lin, Yin Cui, Serge Belongie, James Hay"
+  year: 2015
+  tags: ["ML", "Building-ML"]
+  uri: "https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Lin_Learning_Deep_Representations_2015_CVPR_paper.html"
+  pdf: "deep_geo.pdf"
+  bibtex: |
+    @inproceedings{lin2015learning,
+      title={Learning deep representations for ground-to-aerial geolocalization},
+      author={Lin, Tsung-Yi and Cui, Yin and Belongie, Serge and Hays, James},
+      booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+      pages={5007--5015},
+      year={2015}
+    }
+  added: "2023-07-09"
+
+
+- title: "Measurement of the CP properties of Higgs boson interactions with $\tau$-leptons with the ATLAS detector"
+  author: "ATLAS Collaboration"
+  year: 2023
+  tags: ["Higgs", "CP"]
+  uri: "https://link.springer.com/article/10.1140/epjc/s10052-023-11583-y"
+  pdf: "pdfs/s10052-023-11583-y.pdf"
+  bibtex: |
+    @article{atlas2023measurement,
+      title={Measurement of the CP properties of Higgs boson interactions with $\tau$-leptons with the ATLAS detector},
+      author={ATLAS collaboration and others},
+      journal={The European Physical Journal C},
+      volume={83},
+      number={7},
+      year={2023},
+      publisher={Springer Verlag}
+    }
+  added: "2023-07-05"
 
