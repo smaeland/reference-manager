@@ -1321,3 +1321,19 @@ data:
     }
   added: "2023-07-05"
 
+- title: "Machine learning for anomaly detection in particle physics"
+  author: "Belis, Vasilis and Odagiu, Patrick and Aarrestad, Thea Klaeboe"
+  year: 2024
+  tags: ["ML", "HEP", "Anomaly detection", "Review"]
+  uri: "https://www.sciencedirect.com/science/article/pii/S2405428324000017"
+  pdf: "pdfs/1-s2.0-S2405428324000017-main.pdf"
+  bibtex: |
+    @article{belis2024machine,
+      title={Machine learning for anomaly detection in particle physics},
+      author={Belis, Vasilis and Odagiu, Patrick and Aarrestad, Thea Klaeboe},
+      journal={Reviews in Physics},
+      pages={100091},
+      year={2024},
+      publisher={Elsevier}
+    }
+  added: "2024-03-26"
