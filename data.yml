@@ -1337,3 +1337,22 @@ data:
       publisher={Elsevier}
     }
   added: "2024-03-26"
+
+- title: "ArrayNet: A Combined Seismic Phase Classification and Back‐Azimuth Regression Neural Network for Array Processing Pipelines"
+  author: "Köhler, Andreas and Myklebust, Erik B"
+  year: 2023
+  tags: ["ML", "NORSAR"]
+  uri: "https://pubs.geoscienceworld.org/ssa/bssa/article/113/6/2345/627723"
+  pdf: "bssa-2023056.1.pdf"
+  bibtex: |
+    @article{kohler2023arraynet,
+      title={ArrayNet: A Combined Seismic Phase Classification and Back-Azimuth Regression Neural Network for Array Processing Pipelines},
+      author={K{\"o}hler, Andreas and Myklebust, Erik B},
+      journal={Bulletin of the Seismological Society of America},
+      volume={113},
+      number={6},
+      pages={2345--2362},
+      year={2023},
+      publisher={Seismological Society of America}
+    }
+  added: "2024-05-03"
