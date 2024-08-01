@@ -1356,3 +1356,18 @@ data:
       publisher={Seismological Society of America}
     }
   added: "2024-05-03"
+
+- title: "A unified machine learning approach for reconstructing hadronically decaying tau leptons"
+  author: "L Tani, NN Seeba, H Vanaveski, J Pata, T Lange"
+  year: 2024
+  tags: ["ML", "taus"]
+  uri: "https://arxiv.org/abs/2407.06788"
+  pdf: "2407.06788v1.pdf"
+  bibtex: |
+    @article{tani2024unified,
+      title={A unified machine learning approach for reconstructing hadronically decaying tau leptons},
+      author={Tani, Laurits and Seeba, Nalong-Norman and Vanaveski, Hardi and Pata, Joosep and Lange, Torben},
+      journal={arXiv preprint arXiv:2407.06788},
+      year={2024}
+    }
+  added: 2024-08-01"
