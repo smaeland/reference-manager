@@ -1370,4 +1370,41 @@ data:
       journal={arXiv preprint arXiv:2407.06788},
       year={2024}
     }
-  added: 2024-08-01"
+  added: "2024-08-01"
+
+- title: "Monitoring urban construction and quarry blasts with low-cost seismic sensors and deep learning tools in the city of Oslo, Norway"
+  author: "K{\"o}hler, Andreas and Myklebust, Erik and Dichiarante, Anna Maria and Oye, Volker"
+  year: 2024
+  tags: ["ML", "NORSAR"]
+  uri: "https://seismica.library.mcgill.ca/article/view/1166"
+  pdf: "Köhler_2024.pdf"
+  bibtex: |
+    @article{kohler2024monitoring,
+      title={Monitoring urban construction and quarry blasts with low-cost seismic sensors and deep learning tools in the city of Oslo, Norway},
+      author={K{\"o}hler, Andreas and Myklebust, Erik and Dichiarante, Anna Maria and Oye, Volker},
+      journal={Seismica},
+      volume={3},
+      number={1},
+      year={2024}
+    }
+  added: "2024-11-03"
+
+- title: "Deep learning models for regional phase detection on seismic stations in Northern Europe and the European Arctic"
+  author: "Myklebust, Erik B and K{\"o}hler, Andreas"
+  year: 2024
+  tags: ["ML", "NORSAR"]
+  uri: ""
+  pdf: "ggae298.pdf"
+  bibtex: |
+    @article{myklebust2024deep,
+      title={Deep learning models for regional phase detection on seismic stations in Northern Europe and the European Arctic},
+      author={Myklebust, Erik B and K{\"o}hler, Andreas},
+      journal={Geophysical Journal International},
+      volume={239},
+      number={2},
+      pages={862--881},
+      year={2024},
+      publisher={Oxford University Press}
+    }
+  added: "2024-11-03"
+  notes: "TPhaseNet"
