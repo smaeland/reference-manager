@@ -1393,7 +1393,7 @@ data:
   author: "Myklebust, Erik B and K{\"o}hler, Andreas"
   year: 2024
   tags: ["ML", "NORSAR"]
-  uri: ""
+  uri: "https://academic.oup.com/gji/article/239/2/862/7740467"
   pdf: "ggae298.pdf"
   bibtex: |
     @article{myklebust2024deep,
@@ -1408,3 +1408,4 @@ data:
     }
   added: "2024-11-03"
   notes: "TPhaseNet"
+
