@@ -1409,3 +1409,25 @@ data:
   added: "2024-11-03"
   notes: "TPhaseNet"
 
+- title: "Evaluating gradient-based explanation methods for neural network ECG analysis using heatmaps"
+  author: "Storås, Andrea Marheim and Mæland, Steffen and Isaksen, Jonas L and Hicks, Steven Alexander and Thambawita, Vajira and Graff, Claus and Hammer, Hugo Lewi and Halvorsen, Pål and Riegler, Michael Alexander and Kanters, Jørgen K"
+  year: 2024
+  tags: ["ML", "XAI", "ECG"]
+  pdf: "storaas2024.pdf"
+  uri: "https://doi.org/10.1093/jamia/ocae280"
+  bibtex: |
+    @article{10.1093/jamia/ocae280,
+      author = {Storås, Andrea Marheim and Mæland, Steffen and Isaksen, Jonas L and Hicks, Steven Alexander and Thambawita, Vajira and Graff, Claus and Hammer, Hugo Lewi and Halvorsen, Pål and Riegler, Michael Alexander and Kanters, Jørgen K},
+      title = "{Evaluating gradient-based explanation methods for neural network ECG analysis using heatmaps}",
+      journal = {Journal of the American Medical Informatics Association},
+      pages = {ocae280},
+      year = {2024},
+      month = {11},
+      issn = {1527-974X},
+      doi = {10.1093/jamia/ocae280},
+      url = {https://doi.org/10.1093/jamia/ocae280},
+      eprint = {https://academic.oup.com/jamia/advance-article-pdf/doi/10.1093/jamia/ocae280/60454594/ocae280.pdf},
+    }
+  added: "2024-11-08"
+
+    
