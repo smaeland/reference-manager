@@ -1412,7 +1412,7 @@ data:
 - title: "Evaluating gradient-based explanation methods for neural network ECG analysis using heatmaps"
   author: "Storås, Andrea Marheim and Mæland, Steffen and Isaksen, Jonas L and Hicks, Steven Alexander and Thambawita, Vajira and Graff, Claus and Hammer, Hugo Lewi and Halvorsen, Pål and Riegler, Michael Alexander and Kanters, Jørgen K"
   year: 2024
-  tags: ["ML", "XAI", "ECG"]
+  tags: ["ML", "XAI", "ECG", "SM"]
   pdf: "storaas2024.pdf"
   uri: "https://doi.org/10.1093/jamia/ocae280"
   bibtex: |
