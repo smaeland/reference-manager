@@ -1430,4 +1430,23 @@ data:
     }
   added: "2024-11-08"
 
+- title: "Designing management education: Practice what you teach"
+  author: "Romme, A Georges L and Putzel, Roger"
+  year: 2003
+  tags: ["Ole"]
+  pdf: "pdfs/DesigningManagementEducation_Romme&Putzel.pdf"
+  uri: "https://journals.sagepub.com/doi/abs/10.1177/1046878103258202"
+  bibtex: |
+    @article{romme2003designing,
+      title={Designing management education: Practice what you teach},
+      author={Romme, A Georges L and Putzel, Roger},
+      journal={Simulation & Gaming},
+      volume={34},
+      number={4},
+      pages={512--530},
+      year={2003},
+      publisher={Sage Publications}
+    }
+  added: "2026-04-01"
+
     
